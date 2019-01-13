@@ -5,4 +5,5 @@ zip -r refined-jobcan.zip \
   ./icon16.png \
   ./icon48.png \
   ./icon128.png \
+  ./LICESE \
   ./manifest.json
