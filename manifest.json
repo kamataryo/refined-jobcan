@@ -1,7 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Refined Jobcan",
-  "version": "1.0.0.0",
+  "short_name": "Ref Jobcan",
+  "version": "1.0.0.1",
   "author": "kamataryo",
   "homepage_url": "https://github.com/kamataryo/refined-jobcan",
   "description": "A Chrome extension to refine jobcan UI.",
