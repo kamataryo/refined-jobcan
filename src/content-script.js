@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const restoredIsYakin = localStorage.getItem(IS_YAKIN) === 'true'
   const whenIsYakinChecked = localStorage.getItem(IS_YAKIN_CHECKED_AT)
-  // case
-  // 夜勤が前回アクセス時にチェックされていて、
-  // 現在の値が夜勤ではなく、
-  // 夜が空けていない時にチェックを戻す
-  // 夜が空けていない => 夜勤モードをクリックした時から6:00をリミットにする
+  // CASE:
+  // - 夜勤が前回アクセス時にチェックされていて、
+  // - 現在の値が夜勤ではなく、
+  // - 夜が空けていない時にチェックを戻す
+  //   NOTE: 夜勤モードをクリックした時から6:00をリミットにする
   if (
     restoredIsYakin &&
     !checkIsYakin.checked &&
