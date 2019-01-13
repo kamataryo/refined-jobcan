@@ -6,6 +6,7 @@
   "author": "kamataryo <mugil.cephalus+github.com@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": ".bin/build.sh",
     "lint": "eslint .",
     "format": "prettier-eslint ./src/*.js --write"
   },
